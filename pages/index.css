@@ -1,0 +1,56 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_decor/header__lang-link_decor_underline.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__image-route/lead__image-route.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+
+
+/* {
+  border: 1px solid red;
+}*/
+
+.lead__image {
+  background: url(../images/lead-polka.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.lead__image-route {
+  width: 96%;
+  margin: auto;
+  padding-bottom: 26%;
+  padding-top: 9%;
+}
+
+.lead__caption {
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 14px;
+  margin: 8px 0 0 0;
+  align-self: flex-start;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
