@@ -46,6 +46,25 @@
   text-transform: uppercase;
 }
 
+.photo-grid {
+  max-width: 1460px;
+  margin: 92px auto;
+}
+
+.photo-grid__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.photo-grid__item {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
 
 
 
