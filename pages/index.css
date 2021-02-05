@@ -15,10 +15,28 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__list/photo__list.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/places/place/place.css);
+@import url(../blocks/places/place/__title/place__title.css);
+@import url(../blocks/places/place/__website/place__website.css);
+@import url(../blocks/places/place/__url-heading/place__url-heading.css);
+@import url(../blocks/places/place/__link/place__link.css);
+@import url(../blocks/places/place/__image/place__image.css);
+@import url(../blocks/places/place/__paragraph/place__paragraph.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
 /* {
   border: 1px solid red;
+ИЗМЕНИТЬ КАРТНКИ В БЛОКЕ ИНТРО
+УМЕНЬШИТЬ КАРТИНКИ ДЛЯ ВСТАВКИ
+ОТСТУПЫ МЕЖДУ БУКВАМИ
+ТРАНСФОРМАЦИЯ ЗАТЕМНЕНИЯ
 }*/
 
 .lead__image {
@@ -46,25 +64,6 @@
   text-transform: uppercase;
 }
 
-.photo-grid {
-  max-width: 1460px;
-  margin: 92px auto;
-}
-
-.photo-grid__list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 16px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.photo-grid__item {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
-}
 
 
 
