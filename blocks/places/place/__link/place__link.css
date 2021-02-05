@@ -8,3 +8,7 @@
 .place__link:visited {
   color: #fff;
 }
+
+.place__link:hover {
+  opacity: .8;
+}
