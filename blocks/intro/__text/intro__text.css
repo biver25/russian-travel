@@ -4,5 +4,11 @@
   max-width: 690px;
   font-size: 16px;
   font-weight: normal;
-  line-height: 26.06px;
+  line-height: 26.08px;
+}
+
+@media screen and (max-width: 623px) {
+  .intro__text {
+    margin-bottom: 34px;
+  }
 }

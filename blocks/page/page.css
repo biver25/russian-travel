@@ -1,6 +1,12 @@
 .page {
   background-color: #2A2C2F;
   color: #fff;
-  padding: 28px 48px 24px;
+  padding: 28px 0 24px;
   font-family: 'inter';
+}
+
+@media screen and (max-width: 623px) {
+  .page {
+    padding-top: 16px;
+  }
 }

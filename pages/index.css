@@ -9,7 +9,6 @@
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
-@import url(../blocks/lead/__image-route/lead__image-route.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
@@ -30,6 +29,11 @@
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__menu-list/footer__menu-list.css);
+@import url(../blocks/footer/__menu-item/footer__menu-item.css);
+@import url(../blocks/footer/__menu-link/footer__menu-link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
 
 /* {
   border: 1px solid red;
@@ -37,77 +41,28 @@
 УМЕНЬШИТЬ КАРТИНКИ ДЛЯ ВСТАВКИ
 ОТСТУПЫ МЕЖДУ БУКВАМИ
 ТРАНСФОРМАЦИЯ ЗАТЕМНЕНИЯ
-}*/
+Переломный разрешения 1246; 964 ; 624 ;
+@media screen and (min-width: 1264px) {
+  .cover {
 
-.lead__image {
-  background: url(../images/lead-polka.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  }
 }
 
-.lead__image-route {
-  width: 96%;
-  margin: auto;
-  padding-bottom: 26%;
-  padding-top: 9%;
+@media screen and (min-width: 964px) and (max-width: 1263px) {
+  .cover {
+
+  }
 }
 
-.lead__caption {
-  font-size: 10px;
-  font-weight: normal;
-  line-height: 14px;
-  margin: 8px 0 0 0;
-  align-self: flex-start;
-  text-transform: uppercase;
+@media screen and (min-width: 624px) and (max-width: 963px) {
+  .cover {
+
+  }
 }
 
-.footer {
-  margin: 92px auto 24px;
-  display: flex;
-  justify-content: space-between;
-  font-family: 'Inter';
-  font-style: normal;
-  flex-wrap: wrap;
+@media screen and (max-width: 623px) {
+  .cover {
 
+  }
 }
-
-.footer__menu-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.footer__menu-item {
-  margin-right: 18px;
-}
-
-.footer__menu-item:last-of-type {
-  margin: 0;
-}
-
-.footer__menu-link {
-
-  font-size: 16px;
-  line-height: 18px;
-  color: #fff;
-  text-decoration: none;
-}
-
-.footer__menu-link:hover {
-  opacity: .8
-}
-
-
-.footer__copyright {
-  font-size: 14px;
-  line-height: 16px;
-  margin: 0;
-  padding: 0;
-  text-align: end;
-}
+*/

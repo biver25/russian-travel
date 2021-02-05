@@ -1,5 +1,18 @@
 .header {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+
+  margin: 0 48px 0;
+}
+
+@media screen and (min-width: 624px) and (max-width: 963px) {
+  .header {
+    margin: 0 24px 0;
+  }
+}
+
+@media screen and (max-width: 623px) {
+  .header {
+    margin: 0 16px 0;
+  }
 }
