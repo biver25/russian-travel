@@ -2,7 +2,13 @@
   background-color: #2A2C2F;
   color: #fff;
   padding: 28px 0 24px;
-  font-family: 'inter';
+  font-family: 'inter', 'Arial', 'Helvetica', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
 }
 
 @media screen and (max-width: 623px) {

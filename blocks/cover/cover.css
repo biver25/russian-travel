@@ -1,5 +1,5 @@
 .cover {
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   background: url(../../images/cover-trains.jpg);
   background-size: cover;
   background-position: center;
