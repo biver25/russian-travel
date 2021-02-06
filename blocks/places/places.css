@@ -1,7 +1,7 @@
 .places {
   margin: 0 148px;
   list-style: none;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   padding: 0;
 }
 
