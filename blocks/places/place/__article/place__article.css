@@ -1,0 +1,5 @@
+@media screen and (max-width: 623px) {
+  .place__article {
+    padding: 0 16px;
+  }
+}

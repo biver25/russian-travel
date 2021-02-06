@@ -5,22 +5,22 @@
   background-position: center;
   min-height: 740px;
   display: flex;
-  margin: 0
+  margin: 92px 0 0;
 }
 
 @media screen and (min-width: 1264px) {
   .cover {
-    margin: 0 48px 0;
+    margin: 92px 48px 0;
   }
 }
 
-@media screen and (min-width: 964px) and (max-width: 1263px) {
+@media screen and (min-width: 988px) and (max-width: 1263px) {
   .cover {
     min-height: 640px;
   }
 }
 
-@media screen and (min-width: 624px) and (max-width: 963px) {
+@media screen and (min-width: 624px) and (max-width: 987px) {
   .cover {
     min-height: 480px;
   }
