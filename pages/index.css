@@ -15,7 +15,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/photo-grid/__list/photo__list.css);
+@import url(../blocks/photo-grid/__list/photo-grid__list.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/place/place.css);
@@ -43,25 +43,25 @@
 ТРАНСФОРМАЦИЯ ЗАТЕМНЕНИЯ
 Переломный разрешения 1246; 964 ; 624 ;
 @media screen and (min-width: 1264px) {
-  .cover {
+  . {
 
   }
 }
 
-@media screen and (min-width: 964px) and (max-width: 1263px) {
-  .cover {
+@media screen and (min-width: 988px) and (max-width: 1263px) {
+  . {
 
   }
 }
 
-@media screen and (min-width: 624px) and (max-width: 963px) {
-  .cover {
+@media screen and (min-width: 624px) and (max-width: 987px) {
+  . {
 
   }
 }
 
 @media screen and (max-width: 623px) {
-  .cover {
+  . {
 
   }
 }

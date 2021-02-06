@@ -1,6 +1,24 @@
 .places {
-  padding: 0 100px;
+  margin: 0 148px;
   list-style: none;
-  margin: 92px auto;
   font-family: 'Inter';
+  padding: 0;
+}
+
+@media screen and (min-width: 988px) and (max-width: 1263px) {
+  .places {
+    margin: 0 48px;
+  }
+}
+
+@media screen and (min-width: 624px) and (max-width: 987px) {
+  .places {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (max-width: 623px) {
+  .places {
+    margin: 0;
+  }
 }
