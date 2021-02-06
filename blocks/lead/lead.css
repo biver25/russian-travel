@@ -6,13 +6,13 @@
   font-family: 'Inter';
 }
 
-@media screen and (min-width: 964px) and (max-width: 1263px) {
+@media screen and (min-width: 988px) and (max-width: 1263px) {
   .lead {
     margin: 48px 48px 0;
   }
 }
 
-@media screen and (max-width: 963px) {
+@media screen and (max-width: 987px) {
   .lead {
     margin: 48px 0 0;
   }

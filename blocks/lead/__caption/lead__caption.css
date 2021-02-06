@@ -8,14 +8,14 @@
   letter-spacing: .15em;
 }
 
-@media screen and (max-width: 963px) {
+@media screen and (min-width: 624px) and (max-width: 987px) {
   .lead__caption {
-    margin-left: 24px;
+    margin: 8px 24px 0;
   }
 }
 
 @media screen and (max-width: 623px) {
   .lead__caption {
-    margin-left: 16px;
+    margin: 8px 16px 0;
   }
 }
