@@ -4,6 +4,9 @@
   column-gap: 40px;
   grid-template-columns: 460px 1fr;
   margin-bottom: 80px;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: normal;
 }
 
 @media screen and (min-width: 988px) and (max-width: 1263px) {
