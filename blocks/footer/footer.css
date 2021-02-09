@@ -2,9 +2,6 @@
   margin: 92px 48px 0;
   display: flex;
   justify-content: space-between;
-  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   flex-direction: row;
 }
 
