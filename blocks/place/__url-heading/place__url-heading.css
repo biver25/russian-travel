@@ -6,16 +6,8 @@
   letter-spacing: 0.2em;
 }
 
-@media screen and (min-width: 624px) and (max-width: 987px) {
+@media screen and (max-width: 987px) {
   .place__url-heading {
-    font-size: 12px;
-    line-height: 12px;
-  }
-}
-
-@media screen and (max-width: 623px) {
-  .place__url-heading {
-    font-size: 12px;
     line-height: 12px;
   }
 }
