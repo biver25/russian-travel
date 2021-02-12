@@ -5,9 +5,21 @@
   flex-direction: row;
 }
 
-@media screen and (max-width: 623px) {
+@media screen and (min-width: 725px) and (max-width: 987px) {
+  .footer {
+    margin: 88px 24px 0;
+  }
+}
+
+@media screen and (max-width: 724px) {
   .footer {
     margin: 64px 16px 0;
+  }
+}
+
+@media screen and (max-width: 623px) {
+  .footer {
+
     flex-direction: column;
     align-items: flex-start;
   }
